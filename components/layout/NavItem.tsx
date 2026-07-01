@@ -17,6 +17,10 @@ export default function NavItem({
 
   const active = pathname === href;
 
+  const newButton = () => {
+    console.log("Testing")
+  }
+
   return (
     <Link
       href={href}
